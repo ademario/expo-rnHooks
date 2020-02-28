@@ -21,7 +21,7 @@ function AddNotes({ navigation }) {
           color='white'
           onPress={() => navigation.goBack()}
           style={styles.iconButton}
-        />
+        />                    
         <View style={styles.container}>
           <TextInput
             label='Add Title Here'
